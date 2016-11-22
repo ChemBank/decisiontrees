@@ -1,2 +1,2 @@
-# OpenGSI Machine Learning Library related to Decision Trees 
+# OpenGSI Decision Trees
 Relative Distances and Strengths in Decision Trees
