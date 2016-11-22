@@ -1,0 +1,358 @@
+@relation HFE-weka.filters.unsupervised.attribute.NumericToNominal-R3-3-weka.filters.unsupervised.attribute.Remove-R3-734
+
+@attribute 'Compound Name' {Methane,Ethane,Propane,Cyclopropane,Isobutane,'2,2-Dimethylpropane',n-Butane,'2,2-Dimethylbutane',n-Pentane,Cyclopentane,2-Methylpentane,3-Methylpentane,'2,4-Dimethylpentane','2,2,4-Trimethylpentane',Methylcyclopentane,n-Hexane,Cyclohexane,Methylcyclohexane,'cis-1,2-Dimethylcyclohexane',n-Heptane,n-Octane,Ethene,Propene,2-Methylpropene,1-Butene,2-Methylbut-2-ene,3-Methyl-1-butene,1-Pentene,trans-2-Pentene,'1-Pentene, 4-methyl-',Cyclopentene,1-Hexene,Cyclohexene,trans-2-Heptene,1-Methylcyclohexene,1-Octene,'2-Methyl-1,3-butadiene','1,3-Pentadiene','2,3-Dimethyl-1,3-butadiene','1,4-Pentadiene','1,5-Hexadiene',Acetylene,1-Propyne,1-Butyne,1-Pentyne,1-Hexyne,1-Heptyne,1-Octyne,1-Nonyne,1-Buten-3-yne,Benzene,Toluene,Ethylbenzene,m-Xylene,o-Xylene,p-Xylene,'1,2,4-Trimethylbenzene',n-Propylbenzene,Isopropylbenzene,n-Butylbenzene,sec-Butylbenzene,tert-Butylbenzene,tert-Pentylbenzene,Naphthalene,Anthracene,Phenanthrene,Fluoromethane,'1,1-Difluoroethane',Trifluoromethane,Tetrafluoromethane,Hexafluoroethane,Octafluoropropane,Fluorobenzene,'1,1,1-Trifluoro-2-chloroethane',Chlorofluoromethane,Chlorodifluoromethane,Chlorotrifluoromethane,Dichlorodifluoromethane,Trichlorofluoromethane,'1,1,2-Trichlorotrifluoroethane','1,2-Difluorotetrachloroethane',Chloropentafluoroethane,'1,1-Dichloro-1,2,2,2-tetrafluoroethane','1,2-Dichlorotetrafluoroethane',Halothane,Bromotrifluoromethane,Teflurane,'Methyl chloride',Dichloromethane,Chloroform,'Carbon tetrachloride','Ethyl chloride','1,1-Dichloroethane','1,2-Dichloroethane','1,1,1-Trichloroethane','1,1,2-Trichloroethane','1,1,1,2-Tetrachloroethane','1,1,2,2-Tetrachloroethane',Pentachloroethane,Hexachloroethane,1-Chloropropane,2-Chloropropane,'1,2-Dichloropropane','1,3-Dichloropropane','Butyl chloride',2-Chlorobutane,'Butylidene chloride',1-Chloropentane,2-Chloropentane,3-Chloropentane,'Vinyl chloride','cis-1,2-Dichloroethene','trans 1,2-Dichloroethene',Trichloroethene,Tetrachloroethene,'Allyl chloride',Chlorobenzene,2-Chlorotoluene,4-Chlorotoluene,'1,2-Dichlorobenzene','1,3-Dichlorobenzene','1,4-Dichlorobenzene','2,2\'-Dichlorobiphenyl','2,3-Dichlorobiphenyl','2,2\',3-Trichlorobiphenyl',Bromotrichloromethane,1-Bromo-2-chloroethane,'Methyl bromide',Dibromomethane,Bromoform,'Ethyl bromide','1,2-Dibromoethane',1-Bromopropane,'Isopropyl bromide','1,2-Dibromopropane','n-Butyl bromide',1-Bromo-2-methylpropane,1-Bromo-3-methylbutane,'n-Amyl bromide','Allyl bromide',Bromobenzene,p-Dibromobenzene,4-Bromotoluene,o-Bromoethylbenzene,o-Bromocumene,'Methyl iodide','Methylene iodide',Iodoethane,1-Iodopropane,2-Iodopropane,'n-Butyl iodide',1-Iodopentane,Iodobenzene,Methanol,Ethanol,Water,'Ethylene glycol','2,2,2-Trifluoroethanol',1-Propanol,2-Propanol,'1,1,1-Trifluoropropan-2-ol','2,2,3,3-Tetrafluoropropanol','2,2,3,3,3-Pentafluoro-1-propanol',Hexafluoro-2-propanol,2-Methyl-1-propanol,1-Butanol,2-Butanol,2-Methyl-1-butanol,3-Methyl-1-butanol,2-Methyl-2-butanol,'2,3-Dimethylbutanol',1-Pentanol,2-Pentanol,3-Pentanol,2-Methyl-1-pentanol,2-Methyl-2-pentanol,2-Methyl-3-pentanol,4-Methyl-2-pentanol,Cyclopentanol,1-Hexanol,3-Hexanol,Cyclohexanol,4-Heptanol,Cycloheptanol,1-Heptanol,1-Octanol,'Allyl alcohol',Phenol,4-Nitrophenol,p-tert-Butylphenol,o-Cresol,3-Methylphenol,p-Cresol,p-Bromophenol,2-Methoxyethanol,Dimethoxymethane,'Dimethyl ether','Methyl propyl ether','Methyl isopropyl ether','tert-Butyl methyl ether','Diethyl ether','Ethyl propyl ether','Di-n-propyl ether','Diisopropyl ether','Dibutyl ether',Tetrahydrofuran,2-Methyltetrahydrofuran,Anisole,'Ethyl phenyl ether',Acetal,'1,2-Dimethoxyethane','Ethylene glycol diethyl ether','1,3-Dioxolane','1,4-Dioxane',Fluroxene,Isoflurane,Acetaldehyde,Propionaldehyde,Butanal,Pentanal,Hexaldehyde,n-Heptanal,Octanal,Nonanal,(E)-Crotonaldehyde,trans-2-Hexenal,trans-2-Octenal,Benzaldehyde,3-Hydroxybenzaldehyde,p-Hydroxybenzaldehyde,Acetone,'Methyl ethyl ketone','Methyl isopropyl ketone','3,3-Dimethyl-2-butanone','Methyl propyl ketone',3-Pentanone,'Methyl isobutyl ketone','2,4-Dimethyl-3-pentanone',Cyclopentanone,2-Hexanone,2-Heptanone,4-Heptanone,2-Octanone,2-Nonanone,'Dibutyl ketone',2-Undecanone,Acetophenone,'Acetic acid','Propanoic acid','Butanoic acid','Pentanoic acid','Hexanoic acid','Methyl formate','Ethyl formate','Propyl formate','Methyl acetate','Isopropyl formate','Isobutyl formate','Isoamyl formate','Ethyl acetate','n-Propyl acetate','Isopropyl acetate','n-Butyl acetate','Isobutyl acetate','n-Amyl acetate','Isopentyl acetate','Hexyl acetate','Methyl propanoate','Ethyl propionate','Propyl propionate','Isopropyl propanoate','Pentyl propanate','Methyl butanoate','Ethyl n-butyrate','Propyl butanoate','Methyl pentanoate','Ethyl pentanoate','Methyl hexanoate','Ethyl heptanoate','Octanoic acid, methyl ester','Methyl benzoate',Ammonia,Methylamine,Ethylamine,Propylamine,n-Butylamine,n-Amylamine,Hexylamine,Dimethylamine,Diethylamine,Dipropylamine,Dibutylamine,Trimethylamine,Triethylamine,Piperazine,'N,N\'-Dimethylpiperazine',1-Methylpiperazine,Aniline,Fenuron,'N,N-Dimethylaniline',Ethylenediamine,2-Methoxyethanamine,Morpholine,4-Methylmorpholine,N-Methylpyrrolidine,N-Methylpiperidine,Pyrrolidine,Piperidine,Pyridine,2-Methylpyridine,3-Methylpyridine,4-Methylpyridine,2-Ethylpyridine,3-Ethylpyridine,4-Ethylpyridine,'2,3-Dimethylpyridine','2,4-Dimethylpyridine','2,5-Dimethylpyridine','2,6-Lutidine','3,4-Dimethylpyridine','3,5-Dimethylpyridine',2-Methylpyrazine,2-Ethylpyrazine,Acetonitrile,Propionitrile,1-Butanenitrile,Benzonitrile,Dichlobenil,Nitroethane,1-Nitropropane,2-Nitropropane,1-Nitrobutane,Nitrobenzene,2-Nitrotoluene,3-Nitrotoluene,'N,N-Dimethylformamide',N-Methylformamide,Acetamide,N-Methylacetamide,Propionamide,'Hydrogen sulfide','Methyl mercaptan',Ethanthiol,'Propyl mercaptan',Thiophenol,Methylphenylsulfide,'Dimethyl sulfide','Diethyl sulfide','Methyl ethyl sulfide','Propyl sulfide','Methyl disulfide','Diethyl disulfide'}
+@attribute HFE numeric
+
+@data
+Methane,1.98
+Ethane,1.83
+Propane,1.96
+Cyclopropane,0.75
+Isobutane,2.32
+'2,2-Dimethylpropane',2.5
+n-Butane,2.08
+'2,2-Dimethylbutane',2.59
+n-Pentane,2.33
+Cyclopentane,1.2
+2-Methylpentane,2.52
+3-Methylpentane,2.51
+'2,4-Dimethylpentane',2.88
+'2,2,4-Trimethylpentane',2.85
+Methylcyclopentane,1.6
+n-Hexane,2.49
+Cyclohexane,1.23
+Methylcyclohexane,1.71
+'cis-1,2-Dimethylcyclohexane',1.58
+n-Heptane,2.62
+n-Octane,2.89
+Ethene,1.27
+Propene,1.27
+2-Methylpropene,1.16
+1-Butene,1.38
+2-Methylbut-2-ene,1.31
+3-Methyl-1-butene,1.83
+1-Pentene,1.66
+trans-2-Pentene,1.34
+'1-Pentene, 4-methyl-',1.91
+Cyclopentene,0.56
+1-Hexene,1.66
+Cyclohexene,0.37
+trans-2-Heptene,1.66
+1-Methylcyclohexene,0.67
+1-Octene,2.17
+'2-Methyl-1,3-butadiene',0.61
+'1,3-Pentadiene',0.68
+'2,3-Dimethyl-1,3-butadiene',0.4
+'1,4-Pentadiene',0.94
+'1,5-Hexadiene',1.01
+Acetylene,-0.01
+1-Propyne,-0.48
+1-Butyne,-0.15
+1-Pentyne,-0.16
+1-Hexyne,0.01
+1-Heptyne,0.6
+1-Octyne,0.71
+1-Nonyne,1.05
+1-Buten-3-yne,0.04
+Benzene,-0.89
+Toluene,-0.76
+Ethylbenzene,-0.61
+m-Xylene,-0.8
+o-Xylene,-0.9
+p-Xylene,-0.8
+'1,2,4-Trimethylbenzene',-0.86
+n-Propylbenzene,-0.53
+Isopropylbenzene,-0.3
+n-Butylbenzene,-0.4
+sec-Butylbenzene,-0.45
+tert-Butylbenzene,-0.44
+tert-Pentylbenzene,-0.18
+Naphthalene,-2.41
+Anthracene,-4.23
+Phenanthrene,-4.06
+Fluoromethane,-0.22
+'1,1-Difluoroethane',-0.11
+Trifluoromethane,0.8
+Tetrafluoromethane,3.16
+Hexafluoroethane,3.94
+Octafluoropropane,4.28
+Fluorobenzene,-0.78
+'1,1,1-Trifluoro-2-chloroethane',0.05
+Chlorofluoromethane,-0.77
+Chlorodifluoromethane,0.11
+Chlorotrifluoromethane,2.52
+Dichlorodifluoromethane,1.69
+Trichlorofluoromethane,0.82
+'1,1,2-Trichlorotrifluoroethane',1.77
+'1,2-Difluorotetrachloroethane',0.82
+Chloropentafluoroethane,2.86
+'1,1-Dichloro-1,2,2,2-tetrafluoroethane',2.5
+'1,2-Dichlorotetrafluoroethane',2.31
+Halothane,-0.13
+Bromotrifluoromethane,1.79
+Teflurane,0.52
+'Methyl chloride',-0.56
+Dichloromethane,-1.36
+Chloroform,-1.07
+'Carbon tetrachloride',0.1
+'Ethyl chloride',-0.63
+'1,1-Dichloroethane',-0.85
+'1,2-Dichloroethane',-1.73
+'1,1,1-Trichloroethane',-0.25
+'1,1,2-Trichloroethane',-1.95
+'1,1,1,2-Tetrachloroethane',-1.15
+'1,1,2,2-Tetrachloroethane',-2.36
+Pentachloroethane,-1.36
+Hexachloroethane,-1.4
+1-Chloropropane,-0.35
+2-Chloropropane,-0.24
+'1,2-Dichloropropane',-1.25
+'1,3-Dichloropropane',-1.9
+'Butyl chloride',-0.14
+2-Chlorobutane,0.07
+'Butylidene chloride',-0.7
+1-Chloropentane,-0.07
+2-Chloropentane,0.07
+3-Chloropentane,0.07
+'Vinyl chloride',0.49
+'cis-1,2-Dichloroethene',-1.17
+'trans 1,2-Dichloroethene',-0.76
+Trichloroethene,-0.44
+Tetrachloroethene,0.05
+'Allyl chloride',-0.57
+Chlorobenzene,-1.01
+2-Chlorotoluene,-1.15
+4-Chlorotoluene,-1.92
+'1,2-Dichlorobenzene',-1.36
+'1,3-Dichlorobenzene',-0.98
+'1,4-Dichlorobenzene',-1.01
+'2,2\'-Dichlorobiphenyl',-2.73
+'2,3-Dichlorobiphenyl',-2.45
+'2,2\',3-Trichlorobiphenyl',-1.99
+Bromotrichloromethane,-0.93
+1-Bromo-2-chloroethane,-1.95
+'Methyl bromide',-0.82
+Dibromomethane,-2.11
+Bromoform,-1.98
+'Ethyl bromide',-0.7
+'1,2-Dibromoethane',-2.1
+1-Bromopropane,-0.56
+'Isopropyl bromide',-0.48
+'1,2-Dibromopropane',-1.94
+'n-Butyl bromide',-0.41
+1-Bromo-2-methylpropane,-0.03
+1-Bromo-3-methylbutane,0.2
+'n-Amyl bromide',-0.08
+'Allyl bromide',-0.86
+Bromobenzene,-1.46
+p-Dibromobenzene,-2.3
+4-Bromotoluene,-1.39
+o-Bromoethylbenzene,-1.19
+o-Bromocumene,-0.85
+'Methyl iodide',-0.89
+'Methylene iodide',-2.49
+Iodoethane,-0.72
+1-Iodopropane,-0.58
+2-Iodopropane,-0.46
+'n-Butyl iodide',-0.26
+1-Iodopentane,-0.12
+Iodobenzene,-1.73
+Methanol,-5.07
+Ethanol,-4.9
+Water,-6.31
+'Ethylene glycol',-9.3
+'2,2,2-Trifluoroethanol',-4.31
+1-Propanol,-4.85
+2-Propanol,-4.75
+'1,1,1-Trifluoropropan-2-ol',-4.16
+'2,2,3,3-Tetrafluoropropanol',-4.9
+'2,2,3,3,3-Pentafluoro-1-propanol',-4.15
+Hexafluoro-2-propanol,-3.76
+2-Methyl-1-propanol,-4.51
+1-Butanol,-4.72
+2-Butanol,-4.61
+2-Methyl-1-butanol,-4.42
+3-Methyl-1-butanol,-4.42
+2-Methyl-2-butanol,-4.43
+'2,3-Dimethylbutanol',-3.91
+1-Pentanol,-4.49
+2-Pentanol,-4.39
+3-Pentanol,-4.35
+2-Methyl-1-pentanol,-3.93
+2-Methyl-2-pentanol,-3.93
+2-Methyl-3-pentanol,-3.89
+4-Methyl-2-pentanol,-3.74
+Cyclopentanol,-5.49
+1-Hexanol,-4.36
+3-Hexanol,-3.68
+Cyclohexanol,-4.95
+4-Heptanol,-4.01
+Cycloheptanol,-5.49
+1-Heptanol,-4.25
+1-Octanol,-4.1
+'Allyl alcohol',-5.03
+Phenol,-6.53
+4-Nitrophenol,-10.6
+p-tert-Butylphenol,-5.92
+o-Cresol,-5.86
+3-Methylphenol,-5.49
+p-Cresol,-6.12
+p-Bromophenol,-7.13
+2-Methoxyethanol,-6.77
+Dimethoxymethane,-2.93
+'Dimethyl ether',-1.92
+'Methyl propyl ether',-1.66
+'Methyl isopropyl ether',-2
+'tert-Butyl methyl ether',-2.21
+'Diethyl ether',-1.75
+'Ethyl propyl ether',-1.81
+'Di-n-propyl ether',-1.16
+'Diisopropyl ether',-0.53
+'Dibutyl ether',-0.83
+Tetrahydrofuran,-3.12
+2-Methyltetrahydrofuran,-3.3
+Anisole,-2.45
+'Ethyl phenyl ether',-4.28
+Acetal,-3.27
+'1,2-Dimethoxyethane',-4.84
+'Ethylene glycol diethyl ether',-3.53
+'1,3-Dioxolane',-4.09
+'1,4-Dioxane',-5.05
+Fluroxene,-0.12
+Isoflurane,0.11
+Acetaldehyde,-3.5
+Propionaldehyde,-3.44
+Butanal,-3.18
+Pentanal,-3.03
+Hexaldehyde,-2.81
+n-Heptanal,-2.67
+Octanal,-2.29
+Nonanal,-2.07
+(E)-Crotonaldehyde,-4.23
+trans-2-Hexenal,-3.68
+trans-2-Octenal,-3.44
+Benzaldehyde,-4.02
+3-Hydroxybenzaldehyde,-9.51
+p-Hydroxybenzaldehyde,-10.48
+Acetone,-3.8
+'Methyl ethyl ketone',-3.71
+'Methyl isopropyl ketone',-3.24
+'3,3-Dimethyl-2-butanone',-2.89
+'Methyl propyl ketone',-3.52
+3-Pentanone,-3.41
+'Methyl isobutyl ketone',-3.06
+'2,4-Dimethyl-3-pentanone',-2.74
+Cyclopentanone,-4.68
+2-Hexanone,-3.41
+2-Heptanone,-3.04
+4-Heptanone,-2.93
+2-Octanone,-2.88
+2-Nonanone,-2.48
+'Dibutyl ketone',-2.67
+2-Undecanone,-2.15
+Acetophenone,-4.58
+'Acetic acid',-6.7
+'Propanoic acid',-6.46
+'Butanoic acid',-6.35
+'Pentanoic acid',-6.16
+'Hexanoic acid',-6.21
+'Methyl formate',-2.78
+'Ethyl formate',-2.65
+'Propyl formate',-2.48
+'Methyl acetate',-3.31
+'Isopropyl formate',-2.02
+'Isobutyl formate',-2.22
+'Isoamyl formate',-2.13
+'Ethyl acetate',-3.08
+'n-Propyl acetate',-2.85
+'Isopropyl acetate',-2.65
+'n-Butyl acetate',-2.55
+'Isobutyl acetate',-2.36
+'n-Amyl acetate',-2.45
+'Isopentyl acetate',-2.21
+'Hexyl acetate',-2.26
+'Methyl propanoate',-2.97
+'Ethyl propionate',-2.8
+'Propyl propionate',-2.54
+'Isopropyl propanoate',-2.22
+'Pentyl propanate',-1.99
+'Methyl butanoate',-2.84
+'Ethyl n-butyrate',-2.5
+'Propyl butanoate',-2.28
+'Methyl pentanoate',-2.54
+'Ethyl pentanoate',-2.52
+'Methyl hexanoate',-2.48
+'Ethyl heptanoate',-2.3
+'Octanoic acid, methyl ester',-2.05
+'Methyl benzoate',-4.28
+Ammonia,-4.29
+Methylamine,-4.6
+Ethylamine,-4.61
+Propylamine,-4.5
+n-Butylamine,-4.38
+n-Amylamine,-4.09
+Hexylamine,-4.04
+Dimethylamine,-4.28
+Diethylamine,-4.06
+Dipropylamine,-3.65
+Dibutylamine,-3.31
+Trimethylamine,-3.23
+Triethylamine,-3.03
+Piperazine,-7.4
+'N,N\'-Dimethylpiperazine',-7.58
+1-Methylpiperazine,-7.77
+Aniline,-5.49
+Fenuron,-11.87
+'N,N-Dimethylaniline',-2.9
+Ethylenediamine,-9.75
+2-Methoxyethanamine,-6.55
+Morpholine,-7.17
+4-Methylmorpholine,-6.34
+N-Methylpyrrolidine,-3.97
+N-Methylpiperidine,-3.89
+Pyrrolidine,-5.47
+Piperidine,-5.1
+Pyridine,-4.69
+2-Methylpyridine,-4.62
+3-Methylpyridine,-4.77
+4-Methylpyridine,-4.92
+2-Ethylpyridine,-4.32
+3-Ethylpyridine,-4.6
+4-Ethylpyridine,-4.72
+'2,3-Dimethylpyridine',-4.81
+'2,4-Dimethylpyridine',-4.85
+'2,5-Dimethylpyridine',-4.7
+'2,6-Lutidine',-4.6
+'3,4-Dimethylpyridine',-5.21
+'3,5-Dimethylpyridine',-4.84
+2-Methylpyrazine,-5.51
+2-Ethylpyrazine,-5.45
+Acetonitrile,-3.89
+Propionitrile,-3.85
+1-Butanenitrile,-3.64
+Benzonitrile,-4.1
+Dichlobenil,-5.22
+Nitroethane,-3.71
+1-Nitropropane,-3.34
+2-Nitropropane,-3.14
+1-Nitrobutane,-3.08
+Nitrobenzene,-4.12
+2-Nitrotoluene,-3.59
+3-Nitrotoluene,-3.45
+'N,N-Dimethylformamide',-8.55
+N-Methylformamide,-10
+Acetamide,-9.72
+N-Methylacetamide,-10
+Propionamide,-9.42
+'Hydrogen sulfide',-0.7
+'Methyl mercaptan',-1.24
+Ethanthiol,-1.3
+'Propyl mercaptan',-1.05
+Thiophenol,-2.55
+Methylphenylsulfide,-2.73
+'Dimethyl sulfide',-1.54
+'Diethyl sulfide',-1.43
+'Methyl ethyl sulfide',-1.49
+'Propyl sulfide',-1.27
+'Methyl disulfide',-1.83
+'Diethyl disulfide',-1.63
